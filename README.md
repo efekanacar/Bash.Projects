@@ -22,8 +22,7 @@ Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin,
 `bash cpu_kullanımı.sh`
 Bu şekilde, mevcut CPU kullanımını ekranda görebilirsiniz.
 
-# [#helloworld.sh](helloworld.sh)
-
+# [helloworld.sh](helloworld.sh)
 Bu kod, aşağıdaki işlemleri gerçekleştirir:
 
 1.  "Merhaba, Dünya!" mesajını ekrana yazdırır.
@@ -31,21 +30,19 @@ Bu kod, aşağıdaki işlemleri gerçekleştirir:
 3.  "Mevcut dizin:" başlığı altında çalışılan dizini ekrana yazdırır. Bunun için `pwd` komutunu kullanır.
 
 # [diskbilgi.sh](diskbilgi.sh)
-
 `df` komutunu kullanarak root (`/`) dizininin doluluk oranını alır. Ardından, `awk` komutuyla bu çıktıdan yalnızca doluluk yüzdesini alır. Son olarak, "Disk Doluluk Oranı: yüzde" şeklinde bir çıktı verir.
 
-# port_tarama.sh
+# [port_tarama.sh](port_tarama.sh)
 Bu kod, kullanıcıdan bir hedef IP adresi alır ve ardından belirtilen IP adresinin 1'den 65535'e kadar olan portlarını taramaya başlar. Eğer bir port açıksa, o portun numarasını ekrana yazdırır.
 
-# izin_kontrol.sh
+# [izin_kontrol.sh](izin_kontrol.sh)
 Bu kod, kullanıcıdan bir dosya veya dizin yolunu alır ve ardından belirtilen yolun izinlerini, sahibini ve grubunu kontrol eder. Bu bilgileri ekrana yazdırır.
 
-# ping.sh
+# [ping.sh](izin.sh)
 Bu kod, kullanıcıdan bir hedef IP adresini alır ve ardından ping komutunu kullanarak belirtilen IP adresine 4 paket ping atar. Sonuçları analiz ederek, ortalama yanıt süresini elde eder ve ekrana yazdırır.
 
-# url_analizi.sh
+# [url_analizi.sh](url_analizi.sh)
 Bu kod sızma testlerinde kullanılabilecek çok fonksiyonlu bir koddur. Kullanıcıdan bir hedef web sitesinin URL'sini alır. Ardından, `whois` komutunu kullanarak whois bilgilerini alır, `dig` komutunu kullanarak hedefin IP adresini alır, `curl` komutunu kullanarak `robots.txt` dosyasının durumunu kontrol eder ve `nmap` komutunu kullanarak hedef web sitesini taramaya başlar.
 
-# dizin_tarama.sh
-
+# [dizin_tarama.sh](dizin_tarama.sh)
 Bu kod, kullanıcıdan bir hedef URL ve bir kelime listesi dosyasının adını alır. Daha sonra, belirtilen kelime listesindeki her bir kelimeyi kullanarak web sitesinin dizinlerini taramaya başlar. Her bir dizin için HTTP yanıt kodunu kontrol eder ve yanıt kodu 200 ise "Bulundu: URL/dizin" şeklinde bir çıktı verir.
