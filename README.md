@@ -16,9 +16,9 @@ Bash, daha karmaşık komut yapıları, döngüler, koşullar, fonksiyonlar ve d
 
 
 # [cpu_kullanımı.sh](cpu_kullanımı.sh)
-Bu kod, top komutunu kullanarak mevcut CPU kullanımını alır ve ekrana yazdırır. grep ve awk komutları, top çıktısından sadece CPU kullanımını almak için kullanılır.
+Bu kod, `top` komutunu kullanarak mevcut CPU kullanımını alır ve ekrana yazdırır. `grep` ve `awk` komutları, `top` çıktısından sadece CPU kullanımını almak için kullanılır.
 
-Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin, cpu_kullanımı.sh adında bir dosya oluşturabilir ve içeriğe yukarıdaki kodu yapıştırabilirsiniz. Daha sonra terminalde aşağıdaki komutu kullanarak betiği çalıştırabilirsiniz:
+Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin, `cpu_kullanımı.sh`adında bir dosya oluşturabilir ve içeriğe yukarıdaki kodu yapıştırabilirsiniz. Daha sonra terminalde aşağıdaki komutu kullanarak betiği çalıştırabilirsiniz:
 `bash cpu_kullanımı.sh`
 Bu şekilde, mevcut CPU kullanımını ekranda görebilirsiniz.
 
@@ -46,3 +46,5 @@ Bu kod sızma testlerinde kullanılabilecek çok fonksiyonlu bir koddur. Kullan�
 
 # [dizin_tarama.sh](dizin_tarama.sh)
 Bu kod, kullanıcıdan bir hedef URL ve bir kelime listesi dosyasının adını alır. Daha sonra, belirtilen kelime listesindeki her bir kelimeyi kullanarak web sitesinin dizinlerini taramaya başlar. Her bir dizin için HTTP yanıt kodunu kontrol eder ve yanıt kodu 200 ise "Bulundu: URL/dizin" şeklinde bir çıktı verir.
+
+![bash_kullanımı](./bash1.png)
