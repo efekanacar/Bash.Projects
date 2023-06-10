@@ -1,4 +1,4 @@
-# Bash.Projects
+## Bash.Projects
  
 
 Bash, Unix ve Unix benzeri işletim sistemlerinde komut satırı ve kabuk programlaması için kullanılan bir programlama dilidir. İşletim sistemiyle etkileşimde bulunmak, komutları çalıştırmak ve betikler oluşturmak için kullanılır.
@@ -14,9 +14,8 @@ Bash'i kullanmak için öncelikle bir terminal açmanız gerekmektedir. Terminal
 
 Bash, daha karmaşık komut yapıları, döngüler, koşullar, fonksiyonlar ve daha fazlası gibi gelişmiş programlama özellikleri de içerir. Ancak, temel olarak Bash'i başlamak için yukarıda bahsedilen basit komutları ve değişkenleri anlamak yeterlidir.
 
-Bash'i sıfırdan en basit tabirle özetlemeye çalıştım. Elbette, daha fazla ayrıntı ve derinlik için Bash belgeleri ve kaynaklarından yararlanmanızı öneririm. Başlangıç olarak, temel komutları ve değişkenleri anlamak, Bash kullanmaya başlamak için iyi bir adımdır.
 
-# cpu_kullanımı.sh
+[cpu_kullanımı.sh](cpu_kullanımı.sh)
 Bu kod, top komutunu kullanarak mevcut CPU kullanımını alır ve ekrana yazdırır. grep ve awk komutları, top çıktısından sadece CPU kullanımını almak için kullanılır.
 
 Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin, cpu_kullanımı.sh adında bir dosya oluşturabilir ve içeriğe yukarıdaki kodu yapıştırabilirsiniz. Daha sonra terminalde aşağıdaki komutu kullanarak betiği çalıştırabilirsiniz:
@@ -31,7 +30,7 @@ Bu kod, aşağıdaki işlemleri gerçekleştirir:
 3.  "Mevcut dizin:" başlığı altında çalışılan dizini ekrana yazdırır. Bunun için `pwd` komutunu kullanır.
 
 # diskbilgi.sh
-Bu kod, `df` komutunu kullanarak root (`/`) dizininin doluluk oranını alır. Ardından, `awk` komutuyla bu çıktıdan yalnızca doluluk yüzdesini alır. Son olarak, "Disk Doluluk Oranı: yüzde" şeklinde bir çıktı verir.
+`df` komutunu kullanarak root (`/`) dizininin doluluk oranını alır. Ardından, `awk` komutuyla bu çıktıdan yalnızca doluluk yüzdesini alır. Son olarak, "Disk Doluluk Oranı: yüzde" şeklinde bir çıktı verir.
 
 # port_tarama.sh
 Bu kod, kullanıcıdan bir hedef IP adresi alır ve ardından belirtilen IP adresinin 1'den 65535'e kadar olan portlarını taramaya başlar. Eğer bir port açıksa, o portun numarasını ekrana yazdırır.
@@ -39,3 +38,12 @@ Bu kod, kullanıcıdan bir hedef IP adresi alır ve ardından belirtilen IP adre
 # izin_kontrol.sh
 Bu kod, kullanıcıdan bir dosya veya dizin yolunu alır ve ardından belirtilen yolun izinlerini, sahibini ve grubunu kontrol eder. Bu bilgileri ekrana yazdırır.
 
+# ping.sh
+Bu kod, kullanıcıdan bir hedef IP adresini alır ve ardından ping komutunu kullanarak belirtilen IP adresine 4 paket ping atar. Sonuçları analiz ederek, ortalama yanıt süresini elde eder ve ekrana yazdırır.
+
+# url_analizi.sh
+Bu kod sızma testlerinde kullanılabilecek çok fonksiyonlu bir koddur. Kullanıcıdan bir hedef web sitesinin URL'sini alır. Ardından, `whois` komutunu kullanarak whois bilgilerini alır, `dig` komutunu kullanarak hedefin IP adresini alır, `curl` komutunu kullanarak `robots.txt` dosyasının durumunu kontrol eder ve `nmap` komutunu kullanarak hedef web sitesini taramaya başlar.
+
+# dizin_tarama.sh
+
+Bu kod, kullanıcıdan bir hedef URL ve bir kelime listesi dosyasının adını alır. Daha sonra, belirtilen kelime listesindeki her bir kelimeyi kullanarak web sitesinin dizinlerini taramaya başlar. Her bir dizin için HTTP yanıt kodunu kontrol eder ve yanıt kodu 200 ise "Bulundu: URL/dizin" şeklinde bir çıktı verir.
