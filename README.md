@@ -48,3 +48,4 @@ Bu kod sızma testlerinde kullanılabilecek çok fonksiyonlu bir koddur. Kullan�
 Bu kod, kullanıcıdan bir hedef URL ve bir kelime listesi dosyasının adını alır. Daha sonra, belirtilen kelime listesindeki her bir kelimeyi kullanarak web sitesinin dizinlerini taramaya başlar. Her bir dizin için HTTP yanıt kodunu kontrol eder ve yanıt kodu 200 ise "Bulundu: URL/dizin" şeklinde bir çıktı verir.
 
 ![bash_kullanımı](./bash1.png)
+![bash_kullanımı2](./bash2.png)
