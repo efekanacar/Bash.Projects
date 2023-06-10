@@ -15,7 +15,7 @@ Bash'i kullanmak için öncelikle bir terminal açmanız gerekmektedir. Terminal
 Bash, daha karmaşık komut yapıları, döngüler, koşullar, fonksiyonlar ve daha fazlası gibi gelişmiş programlama özellikleri de içerir. Ancak, temel olarak Bash'i başlamak için yukarıda bahsedilen basit komutları ve değişkenleri anlamak yeterlidir.
 
 
-[cpu_kullanımı.sh](cpu_kullanımı.sh)
+# [cpu_kullanımı.sh](cpu_kullanımı.sh)
 Bu kod, top komutunu kullanarak mevcut CPU kullanımını alır ve ekrana yazdırır. grep ve awk komutları, top çıktısından sadece CPU kullanımını almak için kullanılır.
 
 Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin, cpu_kullanımı.sh adında bir dosya oluşturabilir ve içeriğe yukarıdaki kodu yapıştırabilirsiniz. Daha sonra terminalde aşağıdaki komutu kullanarak betiği çalıştırabilirsiniz:
