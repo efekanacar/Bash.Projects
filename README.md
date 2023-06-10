@@ -1,4 +1,4 @@
-## Bash.Projects
+# Bash
  
 
 Bash, Unix ve Unix benzeri işletim sistemlerinde komut satırı ve kabuk programlaması için kullanılan bir programlama dilidir. İşletim sistemiyle etkileşimde bulunmak, komutları çalıştırmak ve betikler oluşturmak için kullanılır.
@@ -22,14 +22,16 @@ Bu betiği bir metin düzenleyicide kaydedip çalıştırabilirsiniz. Örneğin,
 `bash cpu_kullanımı.sh`
 Bu şekilde, mevcut CPU kullanımını ekranda görebilirsiniz.
 
-# helloworld.sh
+# [#helloworld.sh](helloworld.sh)
+
 Bu kod, aşağıdaki işlemleri gerçekleştirir:
 
 1.  "Merhaba, Dünya!" mesajını ekrana yazdırır.
 2.  "Bugünün tarihi:" başlığı altında mevcut tarihi ekrana yazdırır. Bunun için `date` komutunu kullanır.
 3.  "Mevcut dizin:" başlığı altında çalışılan dizini ekrana yazdırır. Bunun için `pwd` komutunu kullanır.
 
-# diskbilgi.sh
+# [diskbilgi.sh](diskbilgi.sh)
+
 `df` komutunu kullanarak root (`/`) dizininin doluluk oranını alır. Ardından, `awk` komutuyla bu çıktıdan yalnızca doluluk yüzdesini alır. Son olarak, "Disk Doluluk Oranı: yüzde" şeklinde bir çıktı verir.
 
 # port_tarama.sh
